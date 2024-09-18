@@ -1,0 +1,73 @@
+/* Resetar a página */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o estilo da página */
+body{
+    font-family: arial, sans-serif;
+    background-color: #78befff0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* centraliza os elementos na tela */
+.container{
+    text-align: center;
+    background-color: rgb(57, 80, 216);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos dos botões */
+.botao{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.botao2{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    transition: all 0.3s ease;
+}
+/* Quando passar o mouse por cima, ele muda de cor */
+.botao:hover{
+    background-color: rgb(44, 44, 44);
+}
+.botao2:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+/* Efeito ao clicar */
+.botao:active{
+    background-color: green;
+}
+.botao2:active{
+    background-color: red;
+}
+
+/* Oculta a mensagem de erro inicialmente */
+.oculto{
+    display: none;
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
